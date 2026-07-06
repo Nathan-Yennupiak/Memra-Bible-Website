@@ -25,7 +25,7 @@ export const features = [
   { icon: <IconBookmark />, name: "Bookmarks", desc: "Save important verses and return to them from any device." },
   { icon: <IconMoon />, name: "Dark Mode", desc: "Comfortable reading day or night with a true dark display." },
   { icon: <IconCalendar />, name: "Reading Plans", desc: "Build consistent Bible reading habits with guided daily plans." },
-  { icon: <IconWifiOff />, name: "Offline Access", desc: "Read Scripture anywhere — no internet connection required." },
+  { icon: <IconWifiOff />, name: "Offline Access", desc: "Read Scripture anywhere without an internet connection." },
 ];
 
 export const screens = [
@@ -52,7 +52,7 @@ export const testimonials = [
     role: "Senior Pastor, Accra",
   },
   {
-    quote: "As a seminary student, I need serious study tools. Memra's notes and highlighting system is exactly what I was looking for — and it works beautifully offline during my commute.",
+    quote: "As a seminary student, I need serious study tools. Memra's notes and highlighting system is exactly what I was looking for and it works beautifully offline during my commute.",
     name: "Rachel Kim",
     role: "M.Div. Student, Dallas Theological Seminary",
   },
@@ -66,7 +66,7 @@ export const testimonials = [
 export const faqs = [
   {
     q: "Is Memra Bible free?",
-    a: "Yes. Memra Bible is completely free to download and use. All core features — reading, search, highlighting, and notes — are available at no cost.",
+    a: "Yes. Memra Bible is completely free to download and use. All core features including reading, search, highlighting, and notes are available at no cost.",
   },
   {
     q: "Can I use it offline?",
@@ -95,7 +95,7 @@ export const versesOfTheDay = [
   { text: "Trust in the Lord with all your heart and lean not on your own understanding.", ref: "Proverbs 3:5" },
   { text: "Cast all your anxiety on him because he cares for you.", ref: "1 Peter 5:7" },
   { text: "Seek first his kingdom and his righteousness, and all these things will be given to you as well.", ref: "Matthew 6:33" },
-  { text: "The Lord is my light and my salvation—whom shall I fear?", ref: "Psalm 27:1" },
+  { text: "The Lord is my light and my salvation, whom shall I fear?", ref: "Psalm 27:1" },
   { text: "Come to me, all you who are weary and burdened, and I will give you rest.", ref: "Matthew 11:28" },
   { text: "With God all things are possible.", ref: "Matthew 19:26" },
   { text: "The joy of the Lord is your strength.", ref: "Nehemiah 8:10" },

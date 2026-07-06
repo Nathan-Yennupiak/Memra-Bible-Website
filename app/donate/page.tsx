@@ -49,7 +49,7 @@ export default function DonatePage() {
             className="mt-6 mx-auto text-[18px] text-[#555] leading-[1.7] max-w-[620px]"
           >
             Memra Bible is built and maintained by a small team committed to making the Word of God
-            beautifully accessible to everyone — at no cost. Your generosity covers servers,
+            beautifully accessible to everyone completely free of charge. Your generosity covers servers,
             translations, and continued development.
           </motion.p>
         </motion.div>
@@ -78,7 +78,7 @@ export default function DonatePage() {
               rel="noopener noreferrer"
               className="relative z-10 mt-10 inline-flex items-center justify-center transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5 active:translate-y-0 text-[16px] font-medium text-black bg-[#FFF] py-[16px] px-[48px] shadow-lg"
             >
-              Support Memra Bible →
+              Donate Now →
             </a>
           </motion.div>
         </div>
@@ -111,7 +111,7 @@ export default function DonatePage() {
 
         <p className="mt-20 max-w-2xl mx-auto text-center text-[15px] text-[#777] italic leading-relaxed">
           "Each of you should give what you have decided in your heart to give, not reluctantly or
-          under compulsion, for God loves a cheerful giver." <br/> <span className="not-italic text-[#555] font-medium mt-2 block">— 2 Corinthians 9:7</span>
+          under compulsion, for God loves a cheerful giver." <br/> <span className="not-italic text-[#555] font-medium mt-2 block">2 Corinthians 9:7</span>
         </p>
       </section>
 

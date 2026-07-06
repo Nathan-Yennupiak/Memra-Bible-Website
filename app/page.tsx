@@ -160,7 +160,7 @@ const ScreenSearch = () => (
 const ScreenNotes = () => (
   <div className="text-[11px] flex flex-col gap-3">
     <div className="text-[10px] text-[#777]">MY NOTES</div>
-    {["Sermon — Sunday", "Romans Study", "Bible Group"].map((t) => (
+    {["Sunday Sermon", "Romans Study", "Bible Group"].map((t) => (
       <div key={t} className="border border-solid border-[#222] p-[10px]">
         <div className="text-[11px]">{t}</div>
         <div className="text-[9px] text-[#777] mt-[4px]">Updated today</div>
@@ -394,14 +394,14 @@ export default function MemraLanding() {
             >
               Memra Bible combines simplicity, beauty, and powerful study tools into one seamless
               experience. Whether you're preparing a sermon, leading a Bible study, or spending
-              quiet time in God's Word, Memra Bible helps you stay focused on Scripture — not the
+              quiet time in God's Word, Memra Bible helps you stay focused on Scripture instead of the
               interface.
             </motion.p>
             <motion.ul variants={childUp} className="mt-8 flex flex-col gap-5">
               {[
                 "Distraction-free reading environment",
                 "Powerful search across all translations",
-                "Offline-first — Scripture always available",
+                "Offline access to Scripture anytime",
               ].map((b) => (
                 <li
                   key={b}
@@ -460,7 +460,7 @@ export default function MemraLanding() {
                 variants={childUp}
                 className="snap-center bg-[#F9FAFB] border border-solid border-[#D1D5DB] p-[24px]"
               >
-                <PhoneFrame variant="iphone" image={s.image} alt={`Memra Bible — ${s.label}`} width={230} height={480} />
+                <PhoneFrame variant="iphone" image={s.image} alt={`Memra Bible ${s.label} screen`} width={230} height={480} />
                 <div
                   className="label mt-5 text-center text-[13px] font-medium text-[#555] tracking-[0.08em] uppercase"
                 >
