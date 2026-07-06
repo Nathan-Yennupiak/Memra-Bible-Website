@@ -12,7 +12,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 
 export const metadata: Metadata = {
   title: "Memra Bible",
-  description: "Lovable Generated Project",
+  description: "Memra Bible is a free, beautifully designed offline Bible app featuring powerful study tools, multiple translations, and an ad-free reading experience.",
 };
 
 export default function RootLayout({
