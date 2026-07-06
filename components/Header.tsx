@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { IconMenu, IconClose } from "./Icons";
+import { IconMenu, IconClose, IconBook } from "./Icons";
 
 /**
  * Header Component
@@ -80,21 +80,22 @@ export default function Header() {
     { label: "Features", href: "/#features" },
     { label: "FAQ", href: "/#faq" },
     { label: "Download", href: "/#download" },
-    { label: "Foundation", href: "/foundation" },
     { label: "Donate", href: "/donate" },
     { label: "Contact", href: "/contact" },
+     { label: "Foundation", href: "/foundation" }
   ];
 
   return (
     <>
       <header
         className={cn(
-        "fixed top-0 w-full z-50 flex flex-col justify-center transition-all duration-300 bg-white/90 backdrop-blur-md shadow-sm",
+        "fixed top-0 w-full z-50 flex flex-col justify-center transition-all duration-300 bg-white shadow-sm",
         scrolled ? "border-b border-[#E5E5E5]" : "border-b border-transparent"
       )}
       >
-        <div className="w-full max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
-          <Link href="/" className="font-serif text-[20px] font-bold text-black">
+        <div className="w-full max-w-7xl mx-auto px-6 lg:px-10 h-[70px] md:h-[75px] flex items-center justify-between">
+          <Link href="/" className="font-inter text-md lg:text-lg font-semibold text-black flex items-center gap-2">
+            <IconBook />
             Memra Bible
           </Link>
           <nav className="hidden md:flex items-center gap-10">
@@ -104,7 +105,7 @@ export default function Header() {
                 href={l.href}
                 className={cn(
                   "transition-colors text-[14px]",
-                  isActive(l.href) ? "text-black font-semibold border-b-2 border-black pb-1" : "text-[#555] hover:text-black"
+                  isActive(l.href) ? "text-black font-semibold border-b-2 border-black pb-1" : "text-black hover:text-black/80"
                 )}
               >
                 {l.label}

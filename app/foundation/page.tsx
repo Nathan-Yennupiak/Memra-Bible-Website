@@ -40,8 +40,13 @@ export default function FoundationPage() {
           variants={stagger}
           className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white pt-20"
         >
-          <motion.div variants={childUp} className="text-[13px] font-bold tracking-[0.2em] uppercase text-white/70 mb-6">
-            The Memra Foundation
+          <motion.div variants={childUp} className="flex flex-col items-center justify-center mb-6">
+            <div className="text-[13px] font-bold tracking-[0.2em] uppercase text-white/70 mb-1.5">
+              The Memra Foundation
+            </div>
+            <div className="text-sm text-white/60 tracking-wider italic font-medium">
+              "The work becomes work"
+            </div>
           </motion.div>
           <motion.h1
             variants={childUp}
@@ -60,7 +65,8 @@ export default function FoundationPage() {
       </section>
 
       {/* THE MISSION INTRODUCTION */}
-      <section className="py-24 lg:py-32 px-6 lg:px-10 max-w-4xl mx-auto text-center">
+      <section className="w-full bg-white">
+        <div className="pt-20 lg:pt-28 pb-16 px-6 lg:px-10 max-w-4xl mx-auto text-center">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -74,15 +80,14 @@ export default function FoundationPage() {
             "Religion that God our Father accepts as pure and faultless is this: to look after orphans and widows in their distress..."
           </motion.p>
           <motion.div variants={childUp} className="mt-6 text-[14px] font-bold tracking-widest text-[#555] uppercase">
-            — James 1:27
+            James 1:27
           </motion.div>
-          
-          <motion.div variants={childUp} className="mt-16 w-px h-24 bg-black/20 mx-auto" />
         </motion.div>
+        </div>
       </section>
 
       {/* PILLAR 1: RURAL PASTORS */}
-      <section className="px-6 lg:px-10 py-16 bg-[#F9F9F9]">
+      <section className="px-6 lg:px-10 py-16 bg-gray-200">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16 lg:gap-24">
           <motion.div
             initial="hidden"
@@ -215,6 +220,9 @@ export default function FoundationPage() {
             >
               Support the Foundation
             </a>
+          </motion.div>
+          <motion.div variants={childUp} className="mt-10 text-[11px] text-white/40 tracking-widest italic font-medium text-center w-full block">
+            "The work becomes work"
           </motion.div>
         </motion.div>
       </section>
